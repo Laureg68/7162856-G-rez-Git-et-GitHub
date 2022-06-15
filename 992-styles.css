@@ -1,0 +1,24 @@
+/*Responsive tablettes*/ 
+@media only screen and (max-width: 992px) and (min-width: 768px){ 
+    .logements {
+        flex-direction: column-reverse;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .populaires {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .populaires .col-item {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .card-item-pop {
+        width: 31%;
+    }
+    .hebergements {
+        width: 100%;
+    }
+}
+
